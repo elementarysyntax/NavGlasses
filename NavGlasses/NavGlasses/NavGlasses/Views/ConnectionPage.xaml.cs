@@ -40,7 +40,10 @@ namespace NavGlasses.Views
             foreach (var deviceId in pairDeviceIds)
             {
                 string deviceName = App.BluetoothClient.GetDeviceName(deviceId);
-                PageHelper.CreateButton(deviceName, () => ConnectToDevice(deviceId), stackLayout);
+                if (deviceName.Contains("HC-06"))
+                {
+                    PageHelper.CreateButton(deviceName, () => ConnectToDevice(deviceId), stackLayout);
+                }
             }
 
             if (pairDeviceIds.Count == 0)
@@ -52,6 +55,7 @@ namespace NavGlasses.Views
         private void ConnectToDevice(string deviceId)
         {
             //var isSuccess =  await App.BluetoothClient.ConnectAsync(deviceId);
+            GoToControlerPage(deviceId);
 
             var isSuccess = App.BluetoothClient.Connect(deviceId);
 
