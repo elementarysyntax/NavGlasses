@@ -19,3 +19,4 @@ C:\Users\scott\source\repos\NavGlasses\NavGlasses\NavGlasses\NavGlasses\obj\Debu
 C:\Users\scott\source\repos\NavGlasses\NavGlasses\NavGlasses\NavGlasses\obj\Debug\netstandard2.0\NavGlasses.pdb
 C:\Users\scott\source\repos\NavGlasses\NavGlasses\NavGlasses\NavGlasses\obj\Debug\netstandard2.0\ref\NavGlasses.dll
 C:\Users\scott\source\repos\NavGlasses\NavGlasses\NavGlasses\NavGlasses\obj\Debug\netstandard2.0\Views\ConnectionPage.xaml.g.cs
+C:\Users\scott\source\repos\NavGlasses\NavGlasses\NavGlasses\NavGlasses\obj\Debug\netstandard2.0\Views\ControlerPage.xaml.g.cs
